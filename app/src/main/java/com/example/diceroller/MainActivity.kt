@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             5 -> R.drawable.dice_5
             else -> R.drawable.dice_6
         }
-        
+
         diceImage.setImageResource(drawableResourse)
 
         Toast.makeText(this,"Dice Rolled!",Toast.LENGTH_SHORT).show()
